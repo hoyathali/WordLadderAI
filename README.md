@@ -23,11 +23,11 @@ python main.py
 
 1. **Enter Start and Target Words:** Input the starting and target words in the provided text fields.
 
-2. **Choose Search Algorithm:** Click the "BFS" button to use Breadth-First Search or the "DFS" button to use Depth-First Search. Additionally, there are "BFS Impl" and "DFS Impl" buttons that are intended for students to implement their custom search algorithms.
+2. **Choose Search Algorithm:** Click the "BFS" button to use Breadth-First Search or the "DFS" button to use Depth-First Search. Additionally, the "BFS Impl" and "DFS Impl" buttons are intended for students to implement their custom search algorithms.
 
 3. **View Results:** The game will display the word ladder from the start word to the target word. The "Nodes Expanded" label shows the number of nodes visited during the search.
 
-4. **Try Different Words:** You can enter new start and target words and choose a different search algorithm.
+4. **Try Different Words:** You can enter new start and target words and choose a different search algorithm. (Please note that the dataset contains only 5-letter English, which can be extended if required)
 
 5. ![image](https://github.com/hoyathali/WordTreeAI/assets/33727918/10830b1d-6fb7-41de-8043-896fef702532)
 
@@ -48,7 +48,7 @@ For students working on the custom search algorithms, they need to implement the
 
 - **Useful Structures:** Utilize Python data structures like queues and stacks for BFS and DFS, respectively.
 
-- **Efficient Word Generation:** When generating neighbors of a word, ensure efficiency by considering only valid words in the dictionary.
+- **Efficient Word Generation:** When generating neighbours of a word, ensure efficiency by considering only valid words in the dictionary.
 
 - **Visited Nodes:** Keep track of visited nodes to avoid redundant exploration.
 
