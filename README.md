@@ -27,7 +27,10 @@ python main.py
 
 3. **View Results:** The game will display the word ladder from the start word to the target word. The "Nodes Expanded" label shows the number of nodes visited during the search.
 
-4. **Try Different Words:** You can enter new start and target words and choose a different search algorithm.
+4. ![image](https://github.com/hoyathali/WordTreeAI/assets/33727918/61ff2863-90e4-4e04-b121-a234b22db36b)
+
+
+5. **Try Different Words:** You can enter new start and target words and choose a different search algorithm.
 
 ## Custom Search Algorithm Implementation
 
@@ -45,7 +48,7 @@ For students working on the custom search algorithms, they need to implement the
 
 - **Useful Structures:** Utilize Python data structures like queues and stacks for BFS and DFS, respectively.
 
-- **Efficient Word Generation:** When generating neighbors of a word, ensure efficiency by considering only valid words in the dictionary.
+- **Efficient Word Generation:** When generating neighbours of a word, ensure efficiency by considering only valid words in the dictionary.
 
 - **Visited Nodes:** Keep track of visited nodes to avoid redundant exploration.
 
