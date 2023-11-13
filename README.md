@@ -29,6 +29,9 @@ python main.py
 
 4. **Try Different Words:** You can enter new start and target words and choose a different search algorithm.
 
+5. ![image](https://github.com/hoyathali/WordTreeAI/assets/33727918/10830b1d-6fb7-41de-8043-896fef702532)
+
+
 ## Custom Search Algorithm Implementation
 
 ### Implementing `bfs_impl_search` and `dfs_impl_search`
