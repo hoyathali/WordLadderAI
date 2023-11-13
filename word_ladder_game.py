@@ -76,6 +76,9 @@ class WordLadderGame:
 
     def bfs_impl(self):
         self.reset_display()
+        self.start_word = self.word_entry.get().lower()
+        self.target_word = self.target_entry.get().lower()
+
         word_list = self.load_word_list()
         result, nodes_expanded = self.find_word_ladder(self.bfs_impl_search, word_list)
         self.display_result(result)
@@ -83,6 +86,9 @@ class WordLadderGame:
 
     def dfs_impl(self):
         self.reset_display()
+        self.start_word = self.word_entry.get().lower()
+        self.target_word = self.target_entry.get().lower()
+
         word_list = self.load_word_list()
         result, nodes_expanded = self.find_word_ladder(self.dfs_impl_search, word_list)
         self.display_result(result)
@@ -150,10 +156,10 @@ class WordLadderGame:
 
 
     def bfs_impl_search(self, word_list):
-        return bfs_impl_search(word_list)
+        return bfs_impl_search(self,word_list)
 
     def dfs_impl_search(self, word_list):
-        return dfs_impl_search(word_list)
+        return dfs_impl_search(self,word_list)
 
     def update_expanded_label(self, nodes_expanded):
         self.expanded_label.config(text=f"Nodes Expanded: {nodes_expanded}")
