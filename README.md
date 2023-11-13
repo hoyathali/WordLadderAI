@@ -43,7 +43,6 @@ For students working on the custom search algorithms, they need to implement the
 
 - `dfs_impl_search(word_list)`: Perform Depth-First Search on the given `word_list` to find the word ladder. Return the word ladder and the number of nodes expanded.
 - Please check dfs_impl_search.py for more details
-- 
 ### Tips for Implementation
 
 - **Useful Structures:** Utilize Python data structures like queues and stacks for BFS and DFS, respectively.
